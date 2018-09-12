@@ -1,0 +1,29 @@
+Usage
+=====
+  scrapy genspider [options] <name> <domain>
+
+Generate new spider using pre-defined templates
+
+Options
+=======
+--help, -h              show this help message and exit
+--list, -l              List available templates
+--edit, -e              Edit spider after creating it
+--dump=TEMPLATE, -d TEMPLATE
+                        Dump template to standard output
+--template=TEMPLATE, -t TEMPLATE
+                        Uses a custom template.
+--force                 If the spider already exists, overwrite it with the
+                        template
+
+Global Options
+--------------
+--logfile=FILE          log file. if omitted stderr will be used
+--loglevel=LEVEL, -L LEVEL
+                        log level (default: DEBUG)
+--nolog                 disable logging completely
+--profile=FILE          write python cProfile stats to FILE
+--pidfile=FILE          write process ID to FILE
+--set=NAME=VALUE, -s NAME=VALUE
+                        set/override setting (may be repeated)
+--pdb                   enable pdb on failure
